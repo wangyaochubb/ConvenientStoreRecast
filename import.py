@@ -30,6 +30,8 @@ e021995t_OT_31JAN2016.close
 path = 'H:/7-Eleven/test/'
 rawdata = open(path+'e021995d_OT_31JAN2016.txt','r')
 #%%
+# do NOT repeat this procedure, it takes long time
+# for loop may be faster
 rawdata.seek(0)
 nextline  = rawdata.readline()
 while nextline != "":
